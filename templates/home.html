@@ -11,8 +11,8 @@
   <ul>
     {% for post in post_list %}
     <li>
-      {{post.title|linebreaks}}
-      {{post.text}}
+      <h3>{{post.title|linebreaks}}</h3>
+      <p>{{post.text}}</p>
     </li>
     {% endfor %}
   </ul>
